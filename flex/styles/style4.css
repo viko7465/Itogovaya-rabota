@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/листик222.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.header{
+    max-width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.button-header-top{
+    font-size: 22.11px;
+    border: 1px solid #F3F3F3;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+    padding: 8px 16px 8px 16px;
+    margin-right: 20px;
+}
+
+.button-active{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 44.74px;
+    border: 1px solid #9A1212;
+    background-color: #9A1212;
+    border-radius: 80px;
+    padding: 8px 19px 8px 19px;
+    margin-right: 20px;
+}
+
+.slider{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.margin-right-img{
+    margin-right: 40px;
+}
+
+.footer{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 120px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/листик222.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.footer>img{
+    width: 84px;
+    height: 56px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.footer>p{
+    font-size: 24px;
+    text-align: right;
+    color: #9A1212;
+    margin-right: 20px;
+}

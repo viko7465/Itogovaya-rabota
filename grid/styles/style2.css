@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-header{
+    margin-left: 170px;
+    margin-top: 30px;
+    justify-items: end;
+}
+
+.button-header-top{
+    font-size: 22.11px;
+    border: 1px solid #F3F3F3;
+    background-color: #F3F3F3;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.content-and-footer{
+    background-image: url(../images/лист1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.zag{
+    margin-bottom: 0px;
+    margin-left: 250px;
+    font-size: 36px;
+}
+
+.background-box{
+    margin-left: 250px;
+    display: flex;
+}
+
+
+.text{
+    background-color: #9A1212;
+    border-radius: 50px;
+    padding: 20px 40px 20px 20px;
+    width: 582px;
+    font-size: 32px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer{
+    height: 100px;
+    margin-top: 80px;
+    background-color: #F3F3F3;
+    background-image: url(../images/лист1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.nazad{
+    padding-left: 20px;
+    padding-top: 20px;
+}

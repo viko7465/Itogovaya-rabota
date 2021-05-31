@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-header{
+    margin-left: 10px;
+    margin-top: 30px;
+    justify-items: end;
+}
+
+.button-header-top{
+    font-size: 22.11px;
+    border: 1px solid #F3F3F3;
+    background-color: #F3F3F3;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.active-button{
+    color: #fff;
+    font-size: 44.74px;
+    border: 1px solid #9A1212;
+    background-color: #9A1212;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.content-and-footer{
+    background-image: url(../images/листик222.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.content{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 25%;
+    padding-left: 50px;
+    margin-bottom: 200px;
+}
+
+.arrow{
+    margin-top: 125px;
+}
+
+.footer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100px;
+    margin-top: 80px;
+    background-color: #F3F3F3;
+    background-image: url(../images/листик222.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.nazad{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.podval{
+    font-size: 24px;
+    text-align: right;
+    color: #9A1212;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

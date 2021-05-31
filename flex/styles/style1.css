@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    max-width: 100%;
+    height: 105vh;
+    background-color: #9A1212;
+    display: flex;
+    justify-content: center;
+}
+
+.Ketchip{
+    width: 100;
+    height: 100;
+    margin-top: 40px;
+}
+
+.box-2{
+    background-image:url(../img/list1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-button-top{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.button-top{
+    margin-right: 22px;
+    font-size: 22px;
+    border: 1px solid #ffffff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+h1{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+    font-size: 64px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.fs{
+    font-size: 96px;
+}
+
+.box-text{
+    margin-left: 125px;
+    width: 399px;
+}
+
+.individ{
+    text-align: right;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.box-button-bottom{
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.button-bottom{
+    margin-right: 22px;
+    font-size: 22px;
+    border: 1px solid #ffffff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.box-bottom{
+    max-width: 100%;
+    height: 90vh;
+    background-image: url(../img/list2.png);
+    background-size: 60%;
+    background-repeat:no-repeat;
+    background-position:50% 65%;
+}
+.zag{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 125px;
+    font-size: 96px;
+    letter-spacing: 20px;
+}
+
+.box-slider{
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.card{
+    margin-right: 80px;
+}
+
+.text-bottom{
+    margin-top: 0px;
+    font-size: 29.23px;
+    color: #9A1212;
+    text-align: center;
+}
+
+.arrow-1{
+    margin-bottom: 90px;
+    margin-right: 80px;
+}
+
+.arrow-2{
+    margin-bottom: 90px;
+}
+
+.footer{
+    max-width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    background-color: #F3F3F3;
+}
+
+.text-footer{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 20px;
+}

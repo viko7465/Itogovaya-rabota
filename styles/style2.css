@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.img-marginl{
+    margin-left:20px;
+}
+
+.p-style{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size:32px;
+    text-align: right;
+}
+
+.p-style-zag{
+    font-family: 'Jost', sans-serif;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+}
+
+.page-2{
+    background: url('../img/ffoon.jpg') no-repeat center top;
+}
+
+footer{
+    height: 100px;
+    background-color: #f3f3f3;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

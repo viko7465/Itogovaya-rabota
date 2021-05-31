@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.img-marginl{
+    margin-left:20px;
+}
+
+.text{
+    font-family: 'Jost', sans-serif;
+    color: #000000;
+    font-size: 29px;
+    text-align: right;
+}
+
+footer{
+    height: 100px;
+    background-color: #f3f3f3;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.footer-text{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    text-align: right;
+    color: #9A1212;
+}
